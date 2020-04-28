@@ -1,0 +1,241 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: Monoton, sans-serif;
+  background-color: #fcf8e8;
+}
+hr{
+  margin:0 auto 0 auto;
+  border-style:none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 50%;
+  color:black;
+  background-color: #ff2e63;
+}
+.top-container{
+  margin: 0;
+}
+.sun{
+  width:150px;
+  position: absolute;
+  right:15%;
+  top:10%;
+}
+.c1{
+  margin:0 auto;
+  margin-top: 30px;
+  width:15%
+}
+.h1{
+  font-family: Monoton, sans-serif;
+  color: red;
+  font-size: 50px;
+  margin:0 auto 0 auto;
+  margin-top:20px;
+}
+.p1{
+  font-family: Monoton, sans-serif;
+  margin: 10px auto;
+  font-size: 25px;
+  color:#9399ff;
+}
+.c2{
+  position: absolute;
+  left:27%;
+  top:55%;
+  width: 10%;
+}
+.c3{
+  position: absolute;
+  right:7%;
+  bottom:50%;
+  width:20%;
+}
+.mountain{
+  width:800px;
+  margin:0 auto;
+  margin-bottom: 0;
+}
+.top-midhr{
+  margin:0 auto 0 auto;
+  border-style:none;
+  border-top-style: dotted;
+  width:100%;
+  border-width: 10px;
+  color:#ff467e;
+  background-color: yellow;
+}
+.middle-container{
+  font-family: Fredericka the Great,sans-serif;
+  font-size: 30px;
+}
+.profpic{
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 10px;
+  border-left-color:#f35588;
+  border-right-color:#be79df;
+  border-top-color:#05dfd7;
+  border-bottom-color: #ffa41b;
+}
+.headinmid{
+  font-family: Cinzel Decorative, sans-serif;
+  text-decoration: underline;
+  color:#7a08fa;
+}
+
+/*middle class*/
+.middle{
+  color:black;
+  font-family: Fredericka the Great, sans-serif;
+  font-size: 20px;
+}
+
+.amid{
+  margin:0 auto 0 auto;
+  border-style:none;
+  border-top-style: dotted;
+  width:80%;
+  border-width: 10px;
+  color:#ff467e;
+  background-color: yellow;
+}
+
+.comp{
+  border-style:solid;
+  border-color: #616161;
+  border-radius: 20px;
+  border-width: 5px 10px 5px 10px;
+}
+.skills{
+  color:#7a08fa;
+  text-decoration: underline;
+  font-family: Monoton , sans-serif;
+  font-size: 45px;
+}
+.skill-row{
+  font-family: Fredericka the Great,sans-serif;
+  font-size: 25px;
+}
+.skill-heading{
+  font-family: Monoton, sans-serif;
+  font-size: 35px;
+}
+.python{
+  margin:30px auto 0 auto;
+  width:30%;
+  border-style:solid;
+  border-color: purple;
+  border-radius: 20px;
+  border-width: 5px 10px 5px 10px;
+}
+
+.html{
+  margin:30px auto;
+  width:300px;
+  position: relative;
+  right:250px;
+}
+
+.css{
+  margin:30px auto;
+  width:300px;
+}
+
+.js{
+  margin: 30px auto;
+  width:300px;
+  position: relative;
+  left:250px;
+}
+
+.chillies{
+  margin:30px auto 0 auto;
+  width:30%;
+  border-style:solid;
+  border-color: brown;
+  border-radius: 240px;
+  border-width: 10px;
+}
+
+.midhr{
+  margin:0 auto 0 auto;
+  border-style:none;
+  border-top-style: dotted;
+  width:40%;
+  border-width: 10px;
+  color:grey;
+  background-color: yellow;
+}
+
+.amiddle{
+  margin:0 auto 0 auto;
+  border-style:none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 100%;
+  color:black;
+  background-color: #ff2e63;
+}
+.contact{
+  margin:50px auto 20px auto;
+  font-family: Cinzel Decorative, sans-serif;
+  text-decoration: underline;
+  text-decoration-color: gold;
+  color:#ff2e63;
+  font-size:30px;
+}
+
+/*Bottom-Container*/
+.bottom-container{
+  margin:0 auto;
+  font-family: Monoton,sans-serif;
+  font-size: 20px;
+  background-color: rgba(0,255,0,0.9);
+}
+.cont{
+  margin:0 auto;
+  position: relative;
+  top: 20px;
+  color:#7a08fa;
+  text-decoration: underline;
+  font-family: Monoton , sans-serif;
+  font-size: 45px;
+}
+.botp{
+  font-family:Cinzel Decorative, sans-serif;
+  color:#ff006c;
+}
+.tb{
+  margin:0 auto;
+  color:blue;
+  border-style: solid;
+  border-width: 5px;
+  border-spacing: 5px;
+  border-radius: 0 20px 0 20px;
+  background-color: rgba(255,40,180,1);
+  border-color: brown;
+}
+.mail{
+  margin:0 auto;
+  background-color: gold;
+  border-color:grey;
+  border-style: groove;
+  border-width: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.footer-link{
+  margin-bottom: 10px;
+}
+.footer-link:hover,.mail:hover{
+  background-color: cyan;
+}
+.h{
+  border-style:none;
+  border-top: solid;
+  margin:0;
+  color:red;
+  width: 100%;
+}
