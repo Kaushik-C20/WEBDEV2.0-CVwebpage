@@ -2,7 +2,7 @@ body{
   margin: 0;
   text-align: center;
   font-family: Monoton, sans-serif;
-  background-color: #fcf8e8;
+  background-color: #EAF6F6;
 }
 hr{
   margin:0 auto 0 auto;
@@ -11,10 +11,11 @@ hr{
   border-width: 10px;
   width: 50%;
   color:black;
-  background-color: #ff2e63;
+  /*background-color: #ff2e63;*/
 }
 .top-container{
   margin: 0;
+  background-color: #fcf8e8;
 }
 .sun{
   width:150px;
@@ -30,7 +31,7 @@ hr{
 .h1{
   font-family: Monoton, sans-serif;
   color: red;
-  font-size: 50px;
+  font-size: 60px;
   margin:0 auto 0 auto;
   margin-top:20px;
 }
@@ -63,17 +64,18 @@ hr{
   border-top-style: dotted;
   width:100%;
   border-width: 10px;
-  color:#ff467e;
-  background-color: yellow;
+  color:grey;
+  /*background-color: black;*/
 }
 .middle-container{
   font-family: Fredericka the Great,sans-serif;
   font-size: 30px;
 }
 .profpic{
-  margin-top: 20px;
-  border-style: solid;
+  margin-top: 50px;
+  border-style:groove;
   border-width: 10px;
+  border-radius: 40px;
   border-left-color:#f35588;
   border-right-color:#be79df;
   border-top-color:#05dfd7;
@@ -96,77 +98,100 @@ hr{
   margin:0 auto 0 auto;
   border-style:none;
   border-top-style: dotted;
-  width:80%;
+  width:30%;
   border-width: 10px;
-  color:#ff467e;
-  background-color: yellow;
+  color:grey;
+  /*background-color: yellow;*/
 }
 
-.comp{
-  border-style:solid;
-  border-color: #616161;
-  border-radius: 20px;
-  border-width: 5px 10px 5px 10px;
-}
-.skills{
+/*SKILLS Portion*/
+.skills{ /*heading of SKILL*/
   color:#7a08fa;
   text-decoration: underline;
   font-family: Monoton , sans-serif;
   font-size: 45px;
 }
-.skill-row{
-  font-family: Fredericka the Great,sans-serif;
-  font-size: 25px;
-}
-.skill-heading{
+
+.skill-heading{ /*common for all skill headings*/
   font-family: Monoton, sans-serif;
   font-size: 35px;
 }
+
+.comp{
+  width:300px;
+  border-style:solid;
+  border-color: #616161;
+  border-radius: 40px;
+  border-width: 5px 10px 5px 10px;
+  margin:10px 0 50px 0;
+}
+
+.skill-row1{
+  margin: 30px 50px 20px 0;
+  text-align:left;
+  font-family: Fredericka the Great,sans-serif;
+  float:right;
+  font-size: 25px;
+}
+
 .python{
-  margin:30px auto 0 auto;
-  width:30%;
+  width:300px;
   border-style:solid;
   border-color: purple;
   border-radius: 20px;
   border-width: 5px 10px 5px 10px;
+  margin:45px 0 10px 0;
+}
+
+.skill-row2{
+  margin: 20px 0 50px 50px;
+  text-align:left;
+  font-family: Fredericka the Great,sans-serif;
+  float:left;
+  font-size: 25px;
+}
+
+.skill-row3{
+  text-align: center;
+  font-family: Fredericka the Great,sans-serif;
+  font-size: 25px;
+  margin:70px auto 60px auto;
 }
 
 .html{
-  margin:30px auto;
+  margin:30px auto 20px auto;
   width:300px;
   position: relative;
   right:250px;
 }
 
 .css{
-  margin:30px auto;
+  margin:30px auto 20px auto;
   width:300px;
 }
 
 .js{
-  margin: 30px auto;
+  margin:30px auto 20px auto;
   width:300px;
   position: relative;
   left:250px;
 }
 
-.chillies{
-  margin:30px auto 0 auto;
-  width:30%;
-  border-style:solid;
-  border-color: brown;
+.java{
+  width:300px;
+  border-style:ridge;
+  border-color: grey;
   border-radius: 240px;
   border-width: 10px;
+  margin:20px auto 80px auto;
 }
 
-.midhr{
-  margin:0 auto 0 auto;
-  border-style:none;
-  border-top-style: dotted;
-  width:40%;
-  border-width: 10px;
-  color:grey;
-  background-color: yellow;
+.skill-row4{
+  margin: 60px 80px 100px 0;
+  text-align:left;
+  font-family: Fredericka the Great,sans-serif;
+  float:right;
+  font-size: 25px;
 }
 
 .amiddle{
@@ -174,68 +199,112 @@ hr{
   border-style:none;
   border-top-style: dotted;
   border-width: 10px;
-  width: 100%;
-  color:black;
-  background-color: #ff2e63;
-}
-.contact{
-  margin:50px auto 20px auto;
-  font-family: Cinzel Decorative, sans-serif;
-  text-decoration: underline;
-  text-decoration-color: gold;
-  color:#ff2e63;
-  font-size:30px;
+  width: 15%;
+  color:grey;
 }
 
 /*Bottom-Container*/
 .bottom-container{
-  margin:0 auto;
+  margin:60px auto 0 auto;
   font-family: Monoton,sans-serif;
   font-size: 20px;
-  background-color: rgba(0,255,0,0.9);
+  background-color: gold;
+}
+.line{
+  border-style:none;
+  border-top: solid;
+  border-color:grey;
+  margin-bottom: 10px;
+  width:100%;
+}
+.contact{
+  margin:30px auto 20px auto;
+  text-align: center;
+  padding-left: 15px;
+  font-family: Cinzel Decorative, sans-serif;
+  color:White;
+  font-size:25px;
 }
 .cont{
-  margin:0 auto;
+  margin:0 auto 30px auto;
   position: relative;
-  top: 20px;
+  top: 10px;
   color:#7a08fa;
-  text-decoration: underline;
   font-family: Monoton , sans-serif;
   font-size: 45px;
+  border-style: outset;
+  width:30%;
+  border-width: 10px;
+  border-color: silver;
+  background-color: silver;
+}
+.cont:hover{
+  background-color: cyan;
 }
 .botp{
-  font-family:Cinzel Decorative, sans-serif;
-  color:#ff006c;
-}
-.tb{
-  margin:0 auto;
-  color:blue;
-  border-style: solid;
-  border-width: 5px;
-  border-spacing: 5px;
-  border-radius: 0 20px 0 20px;
-  background-color: rgba(255,40,180,1);
-  border-color: brown;
-}
-.mail{
-  margin:0 auto;
-  background-color: gold;
-  border-color:grey;
-  border-style: groove;
-  border-width: 10px;
-  border-radius: 10px;
-  font-size: 30px;
-}
-.footer-link{
-  margin-bottom: 10px;
-}
-.footer-link:hover,.mail:hover{
-  background-color: cyan;
+  padding-top: 30px;
+  padding-bottom: 0;
+  font-family:Monoton, sans-serif;
+  color:Red;
 }
 .h{
   border-style:none;
   border-top: solid;
-  margin:0;
-  color:red;
+  color:grey;
   width: 100%;
+}
+
+.tb{
+  margin:0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color:blue;
+  background-color: #66BFBF;
+  border-color: brown;
+}
+.mail1{
+  margin:50px auto 20px auto;
+  background-color: gold;
+  border-style:outset;
+  border-color:silver;
+  border-width: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-right: 20px;
+}
+.mail2{
+  margin:50px auto 20px auto;
+  background-color: gold;
+  border-style:outset;
+  border-color:silver;
+  border-width: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+.mail3{
+  margin:50px auto 20px auto;
+  background-color: gold;
+  border-style:outset;
+  border-color:silver;
+  border-width: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mail4{
+  margin:50px auto 20px auto;
+  background-color: gold;
+  border-style:outset;
+  border-color:silver;
+  border-width: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-left:20px;
+}
+.mail1:hover,.mail2:hover,.mail3:hover,.mail4:hover{
+  background-color: cyan;
 }
